@@ -1,31 +1,38 @@
 # 2 modes for writing in the file
 # "a", "w"
 
-f = open("demofile.txt", "a")
+'''f=open("D:\PYTHON PRACTICE/demofile.txt","a")
 f.write("Now this file has one more content")
 f.close()
 
-# open and read the file after the appending:
-f = open("demofile.txt", "r")
-print(f.read())
+# open and read the file after the appending
+f=open("D:\PYTHON PRACTICE/demofile.txt","r")
+print(f.read())'''
 
-# 1st open the file and overwrite the content.
-f = open("demofile.txt", "w")
-f.write("yes, finally now we have overwritten the content")
+# 1st open the file overwrote the content.
+f=open("D:\PYTHON PRACTICE/demofile.txt","w")
+f.write("Yes, finally now we have overwrittten the content")
 f.close()
 
 # open and read the file after the appending
-f = open("demofile.txt", "r")
+f=open("D:\PYTHON PRACTICE/demofile.txt","r")
 print(f.read())
 
-# Creating a new file
+# creating a new file
 # "x" - create a file
-# "a" - append a file
-# "w" -  will write or create a file
+# "a" - append file
+# "w" - will write or createa a file
 
-f = open("myfile.txt", "x")
 
-# how to delete a file
+
+f=open("myfile.txt","w")
+f.write("HI , pavan how are brother")
+
+f=open("myfile.txt","r")
+print(f.read())
+f.close()
+
+# how to delete a file 
 import os
 os.remove("myfile.txt")
 
@@ -34,8 +41,9 @@ import os
 if os.path.exists("myfile.txt"):
     os.remove("myfile.txt")
 else:
-    print("the file does not exist")
+    print("thi given file is not exists")
 
 # how to delete the existing folder
-import os
-os.rmdir("myfolder") # this command can only remove empty folder.
+# import os
+# os.rmdir(".idea") # this command can only  remove empty folder
+
