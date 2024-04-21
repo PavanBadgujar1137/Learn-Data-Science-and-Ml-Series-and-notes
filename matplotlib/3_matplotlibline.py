@@ -14,7 +14,6 @@ import numpy as np
 ypoints= np.array([3,8,1,10])
 plt.plot(ypoints, ls='dashed',color="red")
 plt.show()
-
 # line width - lw - width of a line
 
 
