@@ -1,4 +1,4 @@
-# Zipf Dist: its defination like a common word in english has occurs nearly 1/5 time as of the most hindi words
+# Zipf Dist: its defination like a common word in english has occurs nearly 1/5 time as of the most hindi words.
 # param - a(dist param), size
 # sample for zipf dist with a as z with size 2*3
 from numpy import random
