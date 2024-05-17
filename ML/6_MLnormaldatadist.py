@@ -6,4 +6,4 @@ x=np.random.normal(5.0,1.0, 100000)
 plt.hist(x, 100)
 plt.show()
 
-#a normal data dist is also known as bell curve because of its bell shape.
+# a normal data dist is also known as bell curve because of its bell shape.
