@@ -61,3 +61,6 @@ regr.fit(x,y)
 # now here we will predict the CO2 of a car where the weight is 3300kg and the volume is 1300
 predictedCO2= regr.predict([[3300,1300]])
 print(predictedCO2)
+
+# for the calculation here we will show that the coefficicent of 0.007555095 is correct
+# 107.2087328 + (1000*0.00755095) = 114.75968007
