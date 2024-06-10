@@ -33,7 +33,7 @@ data = list(zip(x, y)) # Turn the data into set of points
 
 # Hierarchical clustering
 hierarchical_clustering = AgglomerativeClustering(n_clusters=2, metric='euclidean', linkage='ward')
-labels = hierarchical_clustering.fit_predict(data)
+labels = hierarchical_clustering.fit_predict(data) # This fit_predict method can be called on the data to compute the cluster using to define
 
 # Plot the clusters
 plt.scatter(x, y, c=labels, cmap='viridis')
